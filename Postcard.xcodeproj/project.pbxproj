@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* PostcardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* PostcardApp.swift */; };
+		A10000000000000000000002 /* PostcardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* PostcardEntry.swift */; };
+		A10000000000000000000003 /* SamplePostcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* SamplePostcards.swift */; };
+		A10000000000000000000004 /* PhotoMetadataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* PhotoMetadataService.swift */; };
+		A10000000000000000000005 /* PlaceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* PlaceResolver.swift */; };
+		A10000000000000000000006 /* PostcardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* PostcardStyle.swift */; };
+		A10000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* RootView.swift */; };
+		A10000000000000000000008 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* CollectionView.swift */; };
+		A10000000000000000000009 /* PostcardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* PostcardImage.swift */; };
+		A1000000000000000000000A /* PostcardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* PostcardDetailView.swift */; };
+		A1000000000000000000000B /* PlacesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* PlacesMapView.swift */; };
+		A1000000000000000000000C /* PostcardComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* PostcardComposer.swift */; };
+		A1000000000000000000000D /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* CameraPicker.swift */; };
+		A1000000000000000000000E /* PlaceSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* PlaceSearchView.swift */; };
+		A1000000000000000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* Assets.xcassets */; };
+		A10000000000000000000011 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* PostcardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* PostcardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/PostcardApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* PostcardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model/PostcardEntry.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* SamplePostcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model/SamplePostcards.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* PhotoMetadataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PhotoMetadataService.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* PlaceResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PlaceResolver.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* PostcardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design/PostcardStyle.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Collection/CollectionView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* PostcardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components/PostcardImage.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* PostcardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Detail/PostcardDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* PlacesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Map/PlacesMapView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* PostcardComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Composer/PostcardComposer.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Composer/CameraPicker.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* PlaceSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Composer/PlaceSearchView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000010 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000011 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = E10000000000000000000002; proxyType = 1; remoteGlobalIDString = E10000000000000000000001; remoteInfo = Postcard; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C10000000000000000000011 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002, D10000000000000000000004, D10000000000000000000003); sourceTree = "<group>"; };
+		D10000000000000000000002 /* Postcard */ = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B1000000000000000000000A, B1000000000000000000000B, B1000000000000000000000C, B1000000000000000000000D, B1000000000000000000000E, B1000000000000000000000F); path = Postcard; sourceTree = "<group>"; };
+		D10000000000000000000003 /* Products */ = {isa = PBXGroup; children = (B10000000000000000000010, B10000000000000000000012); name = Products; sourceTree = "<group>"; };
+		D10000000000000000000004 /* PostcardTests */ = {isa = PBXGroup; children = (B10000000000000000000011); path = PostcardTests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* Postcard */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000002; buildPhases = (C10000000000000000000002, C10000000000000000000001, C10000000000000000000003); buildRules = (); dependencies = (); name = Postcard; productName = Postcard; productReference = B10000000000000000000010; productType = "com.apple.product-type.application"; };
+		E10000000000000000000011 /* PostcardTests */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000011; buildPhases = (C10000000000000000000012, C10000000000000000000011); buildRules = (); dependencies = (A40000000000000000000001); name = PostcardTests; productName = PostcardTests; productReference = B10000000000000000000012; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {E10000000000000000000001 = {CreatedOnToolsVersion = 26.6; }; E10000000000000000000011 = {CreatedOnToolsVersion = 26.6; TestTargetID = E10000000000000000000001; }; }; }; buildConfigurationList = F10000000000000000000001; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = D10000000000000000000001; productRefGroup = D10000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (E10000000000000000000001, E10000000000000000000011); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000F); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E); runOnlyForDeploymentPostprocessing = 0; };
+		C10000000000000000000012 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000011); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40000000000000000000001 = {isa = PBXTargetDependency; target = E10000000000000000000001; targetProxy = A30000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F20000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); IPHONEOS_DEPLOYMENT_TARGET = 18.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		F20000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 18.0; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES; }; name = Release; };
+		F20000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "Postcard uses the camera only when you choose to make a postcard from a new photo."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dennisfriedrichsen.Postcard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		F20000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "Postcard uses the camera only when you choose to make a postcard from a new photo."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dennisfriedrichsen.Postcard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		F20000000000000000000011 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.dennisfriedrichsen.PostcardTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postcard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Postcard"; }; name = Debug; };
+		F20000000000000000000012 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.0; PRODUCT_BUNDLE_IDENTIFIER = com.dennisfriedrichsen.PostcardTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postcard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Postcard"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (F20000000000000000000001, F20000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (F20000000000000000000003, F20000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000011 = {isa = XCConfigurationList; buildConfigurations = (F20000000000000000000011, F20000000000000000000012); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}
